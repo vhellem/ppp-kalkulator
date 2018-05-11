@@ -46,13 +46,13 @@ class App extends Component {
           </p>
 
           <p className="App-intro" styles={{ paddingTop: "40em" }}>
-            Skriv inn Antall Personer
+            Skriv inn antall personer
           </p>
           <input
             onChange={evt => this.setState({ antallPerson: evt.target.value })}
           />
           <p />
-          <p className="App-intro">Skriv inn Antall Pizzaer</p>
+          <p className="App-intro">Skriv inn antall pizzaer</p>
           <input
             onChange={evt => this.setState({ antallPizza: evt.target.value })}
           />
