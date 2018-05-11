@@ -64,9 +64,13 @@ class App extends Component {
           />
           <p />
           <p>
-            Pris per stykke blir: {price ? price : ""}
+            Pris per stykke blir: {price ? price : ""} dollars
           </p>
         </div>
+        <p>
+          Credz til Vegard Hellem for progging og Jowey for npm-knoting
+
+        </p>
       </div>
     );
   }
